@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>practice-website</title>
+
+        <style>
+            button {
+                cursor: pointer;
+            }
+
+            nav div{
+                display: inline-block;
+            }
+
+            nav button {
+                border: none;
+                background-color: transparent;
+                font-size: 15px; 
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>practice-website</h1>
+        <p>This is a practice website for the beginner project course</p>
+        <hr>
+
+        <nav>
+            <button id="introduce-btn">introduce</button>
+            <div>|</div>
+            <button id="school-btn">school</button>
+            <div>|</div>
+            <button id="support-btn">support</button>
+        </nav>
+
+        <div id="section-introduce">
+            <h2>Team 17</h2>
+            <p>We are team 17 from the Beginner Project Course!</p>
+        </div>
+
+        <div id="section-school" hidden>
+            <h2> Jeonbuk National University</h2>
+            <img src="imgs/jbnu-logo.svg" width="200px" height="200px">
+            <h3> Freedom, Justice and Creativity</h3>
+            <p>We belong to <a href="https://csai.jbnu.ac.kr/csai/index.do">the Department of Computer Science & Artificial Intelligence</a> at <a href="https://www.jbnu.ac.kr/web/index.do">Jeonbuk National University</a></p>
+        </div>
+
+        <div id="section-support" hidden>
+            <h2>Support our team by pressing button!</h2>
+            <button id="support-add-btn">support</button>
+            <p id="support-cnt">support count : 0</p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
